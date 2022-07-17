@@ -3,6 +3,7 @@ import workImg from "../assets/workImg.jpeg";
 import nicknotes from "../assets/nicknotes.png";
 import newsletter from "../assets/newsletter.png";
 import weatherapp from "../assets/weatherapp.png";
+import SAASpage from "../assets/SAASpage.png";
 
 export const Work = () => {
   return (
@@ -105,74 +106,23 @@ export const Work = () => {
           {/* Card Item */}
 
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${SAASpage})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
             {/*Hover*/}
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                SAAS Page <br />
+                (Responsive)
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://saas-project-two.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Card Item */}
-
-          <div
-            style={{ backgroundImage: `url(${workImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
-          >
-            {/*Hover*/}
-
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Card Item */}
-
-          <div
-            style={{ backgroundImage: `url(${workImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
-          >
-            {/*Hover*/}
-
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Nick Notes
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/nsananikone/SAASProject">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
